@@ -1,58 +1,34 @@
-# [Project Name]
+# Python Package Template
+
+> A comprehensive, production-ready template for creating Python packages with modern best practices, AI-assisted development, and automated CI/CD.
 
 <p align="center">
-  <a href="./README_zh.md">中文文档</a> | English
-</p>
-
-<p align="center">
-  <a href="https://pypi.org/project/[package-name]/"><img src="https://img.shields.io/pypi/v/[package-name].svg" alt="PyPI Version"></a>
-  <a href="https://pypi.org/project/[package-name]/"><img src="https://img.shields.io/pypi/pyversions/[package-name].svg" alt="Python Versions"></a>
-  <a href="https://pepy.tech/project/[package-name]"><img src="https://static.pepy.tech/badge/[package-name]" alt="Downloads"></a>
-  <a href="https://codecov.io/gh/[USERNAME]/[PROJECT_NAME]"><img src="https://codecov.io/gh/[USERNAME]/[PROJECT_NAME]/branch/main/graph/badge.svg" alt="Codecov"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/actions/workflows/ci.yml"><img src="https://github.com/[USERNAME]/[PROJECT_NAME]/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/flashpoint493/python-package-template"><img src="https://img.shields.io/github/stars/flashpoint493/python-package-template?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/flashpoint493/python-package-template/commits/main"><img src="https://img.shields.io/github/last-commit/flashpoint493/python-package-template" alt="Last Commit"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg" alt="Platform"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/actions/workflows/release.yml"><img src="https://github.com/[USERNAME]/[PROJECT_NAME]/actions/workflows/release.yml/badge.svg?branch=main" alt="Release"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/releases"><img src="https://img.shields.io/github/v/release/[USERNAME]/[PROJECT_NAME]?display_name=tag" alt="Latest Release"></a>
   <a href="https://pre-commit.com/"><img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen.svg" alt="pre-commit"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/stargazers"><img src="https://img.shields.io/github/stars/[USERNAME]/[PROJECT_NAME]?style=social" alt="GitHub Stars"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/releases"><img src="https://img.shields.io/github/downloads/[USERNAME]/[PROJECT_NAME]/total" alt="GitHub Downloads"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/commits/main"><img src="https://img.shields.io/github/last-commit/[USERNAME]/[PROJECT_NAME]" alt="Last Commit"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/m/[USERNAME]/[PROJECT_NAME]" alt="Commit Activity"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/issues"><img src="https://img.shields.io/github/issues/[USERNAME]/[PROJECT_NAME]" alt="Open Issues"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/pulls"><img src="https://img.shields.io/github/issues-pr/[USERNAME]/[PROJECT_NAME]" alt="Open PRs"></a>
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/graphs/contributors"><img src="https://img.shields.io/github/contributors/[USERNAME]/[PROJECT_NAME]" alt="Contributors"></a>
-  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt="Conventional Commits"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/googleapis/release-please"><img src="https://img.shields.io/badge/release--please-enabled-blue" alt="release-please"></a>
-  <a href="./.github/dependabot.yml"><img src="https://img.shields.io/badge/dependabot-enabled-025E8C?logo=dependabot" alt="Dependabot"></a>
   <a href="https://docs.astral.sh/ruff/"><img src="https://img.shields.io/badge/code%20style-ruff-000000.svg" alt="Code Style: ruff"></a>
   <a href="http://mypy-lang.org/"><img src="https://img.shields.io/badge/type%20checked-mypy-2A6DB0.svg" alt="Type Checked: mypy"></a>
 </p>
 
-<p align="center">
-  <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a> •
-  <a href="./SECURITY.md">Security Policy</a> •
-  <a href="https://github.com/[USERNAME]/[PROJECT_NAME]/issues">Issue Tracker</a>
-</p>
+---
 
-> **👋 New here?** Start with **[START_HERE.md](./START_HERE.md)** - your guide to navigating this project!
+## 🎯 Purpose
 
-[Brief description of what the project does and its main purpose]
+This is a **template repository** designed to be used with [`auto-package-framework`](https://github.com/flashpoint493/auto-package-framework) or as a standalone starting point for Python package development.
 
-> **⚠️ Development Status**: This project is under active development. APIs may change before v1.0.0 release.
+## ✨ Features
+
+- **Complete Project Structure**: Pre-configured with best practices
+- **CI/CD Ready**: GitHub Actions workflows for testing and releasing
+- **AI-Assisted Development**: Includes `AI_CONTEXT.md` and `llms.txt.template` for AI assistants
+- **Code Quality**: Pre-configured with ruff, mypy, pytest, and pre-commit
+- **Documentation**: Comprehensive documentation templates
+- **Release Automation**: Release-please for automated versioning and changelog
 
 ## Quick Try
 
