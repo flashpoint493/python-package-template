@@ -321,9 +321,12 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Acknowledgments
 
-- [Credits and acknowledgments]
-- [Inspiration sources]
-- [Related projects]
+This project template is inspired by and references the structure of the 
+[AuroraView](https://github.com/loonghao/auroraview) project by Hal Long (@loonghao).
+
+While this template has been significantly modified and generalized for general 
+Python package development, we acknowledge the valuable inspiration from AuroraView's 
+project structure, documentation patterns, and development practices.
 
 ## Contact
 
